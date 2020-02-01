@@ -17,6 +17,8 @@ In summary, change these local security options:
 - Network security: LAN Manager authentication level -- Send NTLMv2 response only. Refuse LM & NTLM
 - Network security: Restrict NTLM: Audit Incoming NTLM Traffic -- Enable auditing for all accounts
 - Network security: Restrict NTLM: Incoming NTLM traffic -- Deny all accounts
+
+Local Computer Policy ➞ Computer Configuration ➞ Administrative Templates ➞ Windows Components ➞ Remote Desktop Services ➞ Remote Desktop Connection Client
 - Do not allow for passwords to be saved -- Enabled
 - Prompt for credentials on the client computer -- Enabled
 
